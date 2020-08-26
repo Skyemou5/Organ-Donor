@@ -1,3 +1,14 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Background/bgs/dream/bg1_eyerocks.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Background/bgs/bg1_forground.png" type="Texture" id=2]
 
 [node name="Test Level" type="Node2D"]
+
+[node name="bg1_forground" type="Sprite" parent="."]
+position = Vector2( 516.25, 150 )
+texture = ExtResource( 2 )
+
+[node name="bg1_eyerocks" type="Sprite" parent="."]
+position = Vector2( 517.733, 156.257 )
+texture = ExtResource( 1 )
