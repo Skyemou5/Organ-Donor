@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Organ Donor"
+run/main_scene="res://Scenes/Test Level.tscn"
 config/icon="res://icon.png"
 
 [rendering]
